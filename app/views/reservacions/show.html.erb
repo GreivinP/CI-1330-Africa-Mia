@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id tour:</strong>
+  <%= @reservacion.id_tour %>
+</p>
+
+<p>
+  <strong>Num cupos adulto:</strong>
+  <%= @reservacion.num_cupos_adulto %>
+</p>
+
+<p>
+  <strong>Num cupos nino:</strong>
+  <%= @reservacion.num_cupos_nino %>
+</p>
+
+<p>
+  <strong>Id cliente:</strong>
+  <%= @reservacion.id_cliente %>
+</p>
+
+<p>
+  <strong>Id estado:</strong>
+  <%= @reservacion.id_estado %>
+</p>
+
+<%= link_to 'Edit', edit_reservacion_path(@reservacion) %> |
+<%= link_to 'Back', reservacions_path %>
