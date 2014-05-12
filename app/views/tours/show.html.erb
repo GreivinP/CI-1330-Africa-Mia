@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @tour.fecha %>
+</p>
+
+<p>
+  <strong>Hora:</strong>
+  <%= @tour.hora %>
+</p>
+
+<p>
+  <strong>Cupo total:</strong>
+  <%= @tour.cupo_total %>
+</p>
+
+<p>
+  <strong>Id estado:</strong>
+  <%= @tour.id_estado %>
+</p>
+
+<p>
+  <strong>Cupo disponible:</strong>
+  <%= @tour.cupo_disponible %>
+</p>
+
+<%= link_to 'Edit', edit_tour_path(@tour) %> |
+<%= link_to 'Back', tours_path %>
